@@ -59,5 +59,16 @@ to this current one by one move. So the whole algorithm could be described by th
  - Further we eliminate all the connected arrangements that are undesirable.
  - Picking one of the remaining connected arrangements. (If there aren't any remaining, we give up).
  - Making it the new current arrangement; the current arrangement is now the previous arrangement.
+ 
+However the algorithm doesn't necessarily find the solution. The reason of that is that the number
+of desirable arrangements on each step could be more than one. Moreover, it's known that there's
+a cycle of desirable arrangements. So, the algorithm could go that way and get stuck in the cycle,
+following it around forever without finishing. The are a number of algorithms that find paths in
+a graph with cycle, but they are not covered in this project.
+
+In this implementation I used class Arrangement, and each arrangement or vertex of the graph 
+was an object of this class. I used method deepcopy() of the copy library to create an object of 
+new arrangement which is connected with current arrangement by one move. Without using deepcopy()
+all references would lead to the same object which will change all the time.
 
 

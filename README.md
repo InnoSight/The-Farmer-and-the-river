@@ -69,6 +69,6 @@ a graph with cycle, but they are not covered in this project.
 In this implementation I used class Arrangement, and each arrangement or vertex of the graph 
 was an object of this class. I used method deepcopy() of the copy library to create an object of 
 new arrangement which is connected with current arrangement by one move. Without using deepcopy()
-all references would lead to the same object which will change all the time.
+all references would lead to the same object that will change all the time.
 
 

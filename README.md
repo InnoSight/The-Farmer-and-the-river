@@ -1,4 +1,4 @@
-# The-Farmer-and-the-river
+# Farmer-and-river
 This project presents graph search for the widely known game of Farmer, Fox, Goose and Beans. 
 The Farmer has to move all participants across the river taking into account that 
 the Fox can eat the Goose and the Goose can eat the Beans being unsupervised. The boat holds

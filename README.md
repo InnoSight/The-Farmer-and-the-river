@@ -71,4 +71,4 @@ was an object of this class. I used method deepcopy() of the copy library to cre
 new arrangement which is connected with current arrangement by one move. Without using deepcopy()
 all references would lead to the same object that will change all the time.
 
-All graphics was made via turtle module designed to implement simple graphics.
+All graphics was made via turtle module.
